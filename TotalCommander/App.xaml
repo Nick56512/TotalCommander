@@ -1,0 +1,10 @@
+﻿<Application x:Class="TotalCommander.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TotalCommander"
+             xmlns:locator="clr-namespace:TotalCommander.Infrastructure"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <locator:ServiceLocator x:Key="serviceLocator"></locator:ServiceLocator>
+    </Application.Resources>
+</Application>
